@@ -27,6 +27,6 @@ jobs:
         shell: bash
   run-ubuntu-command:
     runs-on: ubuntu-latest
-    step:
+    steps:
       - name: check docker version
         run: docker -v
