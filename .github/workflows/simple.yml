@@ -25,3 +25,8 @@ jobs:
       - name: Directory Bash
         run: pwd
         shell: bash
+  run-ubuntu-command:
+    runs-on: ubuntu-latest
+    step:
+      - name: check docker version
+        run: docker -v
